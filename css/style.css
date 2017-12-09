@@ -1,0 +1,75 @@
+
+
+body {
+	background-color: #bdc3c7;
+}
+
+h1 {
+	color: #9b59b6;
+}
+
+h2 {
+	color: orange;
+}
+
+ul li {
+	color: #0000EE;
+}
+
+p{
+	background-color: yellow;
+}
+
+input{
+	border-width: 3px;
+	border-color: red
+}
+.hello{
+	background-color: white;
+}
+
+#special {
+	border:2px solid blue;
+}
+
+div p{
+	font-size:25px;
+}
+
+input[type=text] {
+	background-color: red;
+}
+
+#d3 p{
+	background-color: pink;
+}
+
+#d3 em{
+	background-color: white;
+	font-size: 250px;
+}
+
+#emFnt {
+	background-color: white;
+	font-size:25px;
+}
+
+
+h1:hover{
+	background-color: blue;
+}
+
+a:visited {
+	background-color: gray;
+}
+
+#special:first-letter {text-transform: uppercase; font-size: 100px; color: green;}
+
+label {
+	text-transform: uppercase;
+}
+
+input[type=checkbox]:checked{
+  
+  margin-left:150px;
+} 
