@@ -1,75 +1,34 @@
 
-
-body {
-	background-color: #bdc3c7;
+#frm1 {
+    background-color: rgb(77, 216, 77);
+    width: 60%;
+    
 }
 
-h1 {
-	color: #9b59b6;
-}
-
-h2 {
-	color: orange;
-}
-
-ul li {
-	color: #0000EE;
-}
-
-p{
-	background-color: yellow;
-}
-
-input{
-	border-width: 3px;
-	border-color: red
-}
-.hello{
-	background-color: white;
-}
-
-#special {
-	border:2px solid blue;
-}
-
-div p{
-	font-size:25px;
-}
-
-input[type=text] {
-	background-color: red;
-}
-
-#d3 p{
-	background-color: pink;
-}
-
-#d3 em{
-	background-color: white;
-	font-size: 250px;
-}
-
-#emFnt {
-	background-color: white;
-	font-size:25px;
+#cont1,#cont2,#cont3 {
+    margin-left: 15%;
+    
 }
 
 
-h1:hover{
-	background-color: blue;
+#cont1 h3{
+    color: white;
 }
 
-a:visited {
-	background-color: gray;
+#cont2 h3{
+    color: white;
+
 }
 
-#special:first-letter {text-transform: uppercase; font-size: 100px; color: green;}
-
-label {
-	text-transform: uppercase;
+#cont3 h3{
+    color: white;
 }
 
-input[type=checkbox]:checked{
-  
-  margin-left:150px;
-} 
+.highlight-width{
+    width:200px;
+}
+
+.third-border{
+    border-color: orange;
+    border-width: 2px;
+}
