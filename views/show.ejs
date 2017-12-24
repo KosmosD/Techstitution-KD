@@ -1,0 +1,49 @@
+<% include partials/header %>
+<% include partials/navbar %>
+
+<p> SHOW PAGUS !</p>
+<p><%= title %> </p>
+
+<!-- <%= docs %> -->
+
+<table class="table">
+    <thead>
+        
+        <tr>
+            <th>Pika Kufitare</th>
+            <th>Hyrje min minuta</th>
+            <th>Hyrje max minuta</th>
+            <th>Dalje min minuta</th>
+            <th>Dalje max minuta</th>
+            <th>Hyrje min metra</th>
+            <th>Hyrje max metra</th>
+            <th>Dalje min metra</th>
+            <th>Dalje max metra</th>
+            <th>Edit</th>
+            <th>Delete</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+
+            <% for(var i=0; i < docs.length; i++) { %>
+                <tr>
+                    <td><%= docs[i].sel_pk_kufitare %></td>
+                    <td><%= docs[i].min_hyrje_mins %></td>
+                    <td><%= docs[i].max_hyrje_mins %></td>
+                    <td><%= docs[i].min_dalje_mins %></td>
+                    <td><%= docs[i].max_dalje_mins %></td>
+                    <td><%= docs[i].min_hyrje_meter %></td>
+                    <td><%= docs[i].max_hyrje_meter %></td>
+                    <td><%= docs[i].min_dalje_meter %></td>
+                    <td><%= docs[i].max_dalje_meter %></td>
+                    <td> <a href="/edit/<%= docs[i]._id %>" >EDITUS</a></td>
+                    <td><a href="/delete/<%= docs[i]._id %>" >DELETUS</a></td>
+                </tr>
+                   <% }; %> 
+                
+
+    </tbody>
+</table>
+
+<% include partials/footer %>

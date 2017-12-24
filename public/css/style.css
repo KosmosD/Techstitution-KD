@@ -1,0 +1,38 @@
+
+#frm1 {
+    background-color: rgb(77, 216, 77);
+    width: 60%;
+    
+}
+
+#cont1,#cont2,#cont3 {
+    margin-left: 15%;
+    
+}
+
+
+#cont1 h3{
+    color: white;
+}
+
+#cont2 h3{
+    color: white;
+
+}
+
+#cont3 h3{
+    color: white;
+}
+
+.highlight-width{
+    width:200px;
+}
+
+.third-border{
+    border-color: orange;
+    border-width: 2px;
+}
+
+label {
+    color:white;
+}

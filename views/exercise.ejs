@@ -1,0 +1,28 @@
+<% include partials/header %>
+
+<div class="container-fluid">
+<p> Te dhenat jan ketu : </p>
+    <ul>
+        <li> <%= data.id %>
+
+        </li>
+        <li><%= data.project %></li>
+    </ul>
+   
+    <ul>
+    <% for(var i=0; i < projects.length; i++) { %>
+        <li> <%= projects[i].id %>  </li>
+        <li> <%= projects[i].name %></li>
+             <% }; %>
+    </ul>
+
+
+       
+
+
+</div>
+
+
+
+
+<% include partials/footer %>
